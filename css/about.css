@@ -1,0 +1,28 @@
+.about{
+    background: url(../img/about.jpg) center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.about .txt{
+    text-align: center;
+    backdrop-filter: blur(5px);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .txt h1{
+    font-family: 'Share Tech Mono';
+    color: #fff;
+    font-size: 3em;
+}
+.about .txt h6{
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-size:1em;
+    color: rgba(255, 255, 255, 0.499);
+}
+.about .txt p{
+    font-family: 'Helvetica Neue', sans-serif;
+    color: darkslategray;
+}

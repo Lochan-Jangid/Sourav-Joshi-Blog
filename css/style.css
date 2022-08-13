@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+body{
+    overflow-x: hidden;
+}
+.banner{
+    width: 100vw;
+    height: 100vh;
+    background: url(https://i0.wp.com/techkhera.com/wp-content/uploads/2021/08/screenshot_2021-08-07-15-06-41-487029461142794936296.jpg) no-repeat center;
+    background-size: cover;
+}
+.banner .txt{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+.banner .txt h1{
+    color: #fff;
+    margin: 20px;
+    font-size: 5em;
+    font-family: 'Koulen', cursive;
+}
+.banner .txt h1 a{
+    text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 10px;
+}
+.latest{
+    text-align: center;
+    padding: 10px;
+}
+.latest header{
+    font-size: 2em;
+    color: rgb(109, 109, 109);
+}
+.latest .new{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 20px;
+}
+.latest .new img{
+    width: 500px;
+}
+.latest .new .txt{
+    margin-left: 40px;
+    width: 500px;
+}
